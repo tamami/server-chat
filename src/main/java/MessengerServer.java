@@ -34,7 +34,7 @@ public class MessengerServer implements MessageListener {
     }
 
     public static void main(String[] args) {
-
+        new MessengerServer().startServer();
     }
 
 }
